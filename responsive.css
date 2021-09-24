@@ -1,0 +1,71 @@
+@media (max-width:990px){
+    .header_2 .logo{
+        font-size: 15px;
+        margin-left: 2px;
+    }
+    .header_2 button{
+        margin-right: 10px;
+    }
+    
+    .header .row{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 10px 50px;
+    }
+    .header img{
+        height: 200px;
+        align-items: center;
+        text-align: center;
+    }
+    .header_1{
+        display: none;
+    }
+   .content{
+       margin: 30px auto;
+   }
+   .testimonial img{
+       margin-bottom: 18px;
+   }
+}
+@media (max-width:768px){ 
+    .header_1{
+        display: none;
+    }
+}
+@media (max-width:992px){
+    .header_1 span{
+        margin: 0px 30px;
+    }
+}
+@media (max-width:569px) {
+    .header .row{
+        margin: 10px 20px;
+    }
+}
+@media (max-width:434px) {
+    .header .row{
+        margin: 10px 10px;
+    }
+    .header h1{
+       font-size: 17px;
+    }
+    .header .court{
+        margin-top: 30px;
+        width: 150px;
+    }
+    .header .long{
+        margin-top: -55px;
+        width: 170px;
+    }
+}
+@media (max-width:768px) {
+    .about, .jumbotron, .testimonial, .assistance, .footer{
+        padding: 10px;
+    }
+    .testimonial img{
+        width: 100%;
+    }
+}
